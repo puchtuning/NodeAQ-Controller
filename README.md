@@ -22,19 +22,25 @@ Lade Sie die Installationsdateien von folgendem Seite herunter und installieren 
 
 
 
-### Libaris installieren
-Um die benötigten Libaris installieren zu können, müssen Sie die ArduinoIDE zuerst öffnen.
+### Bibliotheken installieren
+Um die benötigten Bibliotheken installieren zu können, müssen Sie die ArduinoIDE zuerst öffnen.
 Sobald das Programm läuft, wählen Sie den Menupunkt Werkzeuge - Bibliotheken verwalten... aus.
 
-Folgende Libaris werden vom NodeAQ-Controller benötigt 
-- ESP8266WiFi
-- ESP8266HTTPClient
-- WiFiUdp.h
-- NTPClient
-- time.h
-- DallasTemperature
-- OneWire
-- Wire
+Folgende Libaris werden vom NodeAQ-Controller benötigt:
+
+```ino
+#include <ESP8266WiFi.h>
+#include <ESP8266HTTPClient.h>
+#include <WiFiUdp.h>
+#include <NTPClient.h>
+#include <time.h>
+#include <DallasTemperature.h>
+#include <OneWire.h>
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+#include <ArduinoMqttClient.h>
+#include <ArduinoJson.h>
+```
 
 ### NodeAQ-Controller installieren
 Laden Sie die Files von der NodeAQ-Controller GitHub Page herunter und speichern diese auf Ihrem Computer ab.
