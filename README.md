@@ -5,6 +5,13 @@ Hier wird Ihnen geholfen einen NodeAQ-Controller aufzusetzen.
 
 
 ***
+## Changelog
+  - V1-0 -Freigabe
+  - V1-3 - Integration MySQL API
+  - V1-3-1 - Bug fixes
+  - V1-4 - RTC Sync mit NTP
+  - V1-6 - MQTT Support, Anpassung Webinterface
+
 
 ## Installation
 Die Installation setzt Kenntnisse mit dem Umgang der Ardoino IDE und dem NodeMCU voraus
